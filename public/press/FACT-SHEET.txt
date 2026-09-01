@@ -1,0 +1,62 @@
+Microduck fact sheet
+Pollen Robotics · Hugging Face robotics team
+Last updated 27 August 2026
+
+WHAT IT IS
+A 25 cm tall biped robot, playful and educational, made by Pollen Robotics, the Bordeaux-based robotics team at Hugging Face. Their second consumer robot, after Reachy Mini.
+
+WHAT IT DOES
+Walks with a waddle, sits, crouches, roller-skates, picks objects up with its beak and gets back on its feet from many common fall positions.
+
+WHY IT MATTERS
+It sets out to make building AI on real hardware as approachable as running a model: complex behaviours out of the box, then an open-source stack covering robot control, simulation, RL training and sim-to-real deployment, so new skills can be trained in simulation and transferred to the robot.
+
+PRICE
+$399 before taxes and shipping, introductory.
+
+PRE-ORDERS
+Open from August 27, 2026.
+
+FIRST DELIVERIES
+Targeted before Christmas 2026. Community demand is high; new orders currently estimate 4–6 months, first ordered first shipped.
+
+MARKETS
+US, Canada, EU, UK, Norway, Switzerland, Japan and South Korea at launch.
+
+COLOURWAYS
+4 at launch: Cream (#f7e6cb), Graphite (#6c6a68), Lavender (#bfa9cf), Sky (#a9dbe8).
+
+KEY SPECIFICATIONS (provisional)
+Motors: 15 degrees of freedom, across articulated legs, head and neck
+Dimensions: 25 cm tall, 14 cm wide
+Weight: Under 800 g
+Compute: Rockchip RK3566 with AI accelerator
+Memory: 1 GB RAM, 32 GB storage
+Vision: Front camera, with a dedicated camera-use indicator
+Motion sensing: 2 IMUs, one in the body and one in the head
+Range sensing: Compact LiDAR, an 8×8 time-of-flight matrix
+Physical interaction: Articulated grasping beak
+Audio: Microphones and speaker, with a per-robot generated voice
+NFC: 2 antennas, one in the head and one in the beak
+Connectivity: Wi-Fi and Bluetooth
+Battery: Removable NP-F550 camera battery, 2600 mAh, around one hour of runtime depending on use
+In the box: Game controller, playable before writing any code, plus autonomous behaviours at launch
+Software: Open-source SDK with virtual training environments, RL training scripts and tools, and a tested sim-to-real workflow
+
+OPEN SOURCE
+The open-source statement covers the software stack. The mechanical and electronic design files are not open-source hardware.
+
+SOFTWARE
+Open-source SDK with robot control, simulation, RL training scripts and sim-to-real tools. Ships with the robot.
+
+WEBSITE
+https://huggingface.it.com
+
+PRESS CONTACT
+contact@pollen-robotics.com
+
+BOILERPLATE — MICRODUCK
+Microduck is a 25 cm biped robot with 15 motors, a camera, LiDAR and a grasping beak. It is playable out of the box, and its open-source software stack lets you train new behaviours in simulation and run them on the robot. Pre-orders open at $399, with first deliveries targeted before Christmas 2026.
+
+BOILERPLATE — POLLEN ROBOTICS
+Pollen Robotics builds open-source robots from Bordeaux, France. Founded in 2016 by former Inria researchers, the team joined Hugging Face in April 2025 and is its robotics team. Microduck is their second consumer robot, after Reachy Mini.

@@ -1,0 +1,230 @@
+{
+  "imgs": [
+    {
+      "src": "./Microduck——一款可以教你各种新把戏的小型双足机器人 _ Pollen Robotics_files/pollen-logo-icon.svg",
+      "srcset": null,
+      "alt": "",
+      "raw": "<img class=\"MuiBox-root mui-18fgdy8\" src=\"./Microduck——一款可以教你各种新把戏的小型双足机器人 _ Pollen Robotics_files/pollen-logo-icon.svg\" alt=\"\" aria-hidden=\"true\">"
+    },
+    {
+      "src": "./Microduck——一款可以教你各种新把戏的小型双足机器人 _ Pollen Robotics_files/hf-logo.svg",
+      "srcset": null,
+      "alt": "",
+      "raw": "<img class=\"MuiBox-root mui-1nqwpft\" src=\"./Microduck——一款可以教你各种新把戏的小型双足机器人 _ Pollen Robotics_files/hf-logo.svg\" alt=\"\" aria-hidden=\"true\">"
+    },
+    {
+      "src": "./Microduck——一款可以教你各种新把戏的小型双足机器人 _ Pollen Robotics_files/duck-head-mark.webp",
+      "srcset": null,
+      "alt": "",
+      "raw": "<img class=\"duck-closed MuiBox-root mui-i660uq\" src=\"./Microduck——一款可以教你各种新把戏的小型双足机器人 _ Pollen Robotics_files/duck-head-mark.webp\" alt=\"\" aria-hidden=\"true\">"
+    },
+    {
+      "src": "./Microduck——一款可以教你各种新把戏的小型双足机器人 _ Pollen Robotics_files/duck-head-mark-open.webp",
+      "srcset": null,
+      "alt": "",
+      "raw": "<img class=\"duck-open MuiBox-root mui-131vlt3\" src=\"./Microduck——一款可以教你各种新把戏的小型双足机器人 _ Pollen Robotics_files/duck-head-mark-open.webp\" alt=\"\" aria-hidden=\"true\">"
+    },
+    {
+      "src": "./Microduck——一款可以教你各种新把戏的小型双足机器人 _ Pollen Robotics_files/squad.webp",
+      "srcset": null,
+      "alt": "Microduck小队",
+      "raw": "<img class=\"MuiBox-root mui-1kwrunu\" src=\"./Microduck——一款可以教你各种新把戏的小型双足机器人 _ Pollen Robotics_files/squad.webp\" alt=\"Microduck小队\" loading=\"lazy\">"
+    },
+    {
+      "src": "./Microduck——一款可以教你各种新把戏的小型双足机器人 _ Pollen Robotics_files/tap-tap.webp",
+      "srcset": null,
+      "alt": "",
+      "raw": "<img class=\"MuiBox-root mui-2oha8b\" src=\"./Microduck——一款可以教你各种新把戏的小型双足机器人 _ Pollen Robotics_files/tap-tap.webp\" alt=\"\">"
+    },
+    {
+      "src": "./Microduck——一款可以教你各种新把戏的小型双足机器人 _ Pollen Robotics_files/closeup.webp",
+      "srcset": null,
+      "alt": "特写镜头：一只微型鸭子立于桌面上，沐浴在暖光中。",
+      "raw": "<img class=\"MuiBox-root mui-qip1yh\" src=\"./Microduck——一款可以教你各种新把戏的小型双足机器人 _ Pollen Robotics_files/closeup.webp\" alt=\"特写镜头：一只微型鸭子立于桌面上，沐浴在暖光中。\" loading=\"lazy\" decoding=\"async\">"
+    },
+    {
+      "src": "./Microduck——一款可以教你各种新把戏的小型双足机器人 _ Pollen Robotics_files/playtime.webp",
+      "srcset": null,
+      "alt": "一位女士在桌边玩微型鸭子时开怀大笑。",
+      "raw": "<img class=\"MuiBox-root mui-qip1yh\" src=\"./Microduck——一款可以教你各种新把戏的小型双足机器人 _ Pollen Robotics_files/playtime.webp\" alt=\"一位女士在桌边玩微型鸭子时开怀大笑。\" loading=\"lazy\" decoding=\"async\">"
+    },
+    {
+      "src": "./Microduck——一款可以教你各种新把戏的小型双足机器人 _ Pollen Robotics_files/watching.webp",
+      "srcset": null,
+      "alt": "一只Microduck放在桌子上，正对着摄像头，有人在它后面写代码。",
+      "raw": "<img class=\"MuiBox-root mui-qip1yh\" src=\"./Microduck——一款可以教你各种新把戏的小型双足机器人 _ Pollen Robotics_files/watching.webp\" alt=\"一只Microduck放在桌子上，正对着摄像头，有人在它后面写代码。\" loading=\"lazy\" decoding=\"async\">"
+    },
+    {
+      "src": "./Microduck——一款可以教你各种新把戏的小型双足机器人 _ Pollen Robotics_files/kickabout.webp",
+      "srcset": null,
+      "alt": "两只迷你鸭在人造草坪球场上玩球",
+      "raw": "<img class=\"MuiBox-root mui-nhtoy0\" src=\"./Microduck——一款可以教你各种新把戏的小型双足机器人 _ Pollen Robotics_files/kickabout.webp\" alt=\"两只迷你鸭在人造草坪球场上玩球\" loading=\"lazy\" decoding=\"async\">"
+    },
+    {
+      "src": "./Microduck——一款可以教你各种新把戏的小型双足机器人 _ Pollen Robotics_files/desk.webp",
+      "srcset": null,
+      "alt": "俯视图，桌面上摆放着 Microducks 玩具、游戏手柄和贴纸。",
+      "raw": "<img class=\"MuiBox-root mui-nhtoy0\" src=\"./Microduck——一款可以教你各种新把戏的小型双足机器人 _ Pollen Robotics_files/desk.webp\" alt=\"俯视图，桌面上摆放着 Microducks 玩具、游戏手柄和贴纸。\" loading=\"lazy\" decoding=\"async\">"
+    },
+    {
+      "src": "./Microduck——一款可以教你各种新把戏的小型双足机器人 _ Pollen Robotics_files/carried.webp",
+      "srcset": null,
+      "alt": "一只腋下夹着的微型鸭",
+      "raw": "<img class=\"MuiBox-root mui-qip1yh\" src=\"./Microduck——一款可以教你各种新把戏的小型双足机器人 _ Pollen Robotics_files/carried.webp\" alt=\"一只腋下夹着的微型鸭\" loading=\"lazy\" decoding=\"async\">"
+    },
+    {
+      "src": "./Microduck——一款可以教你各种新把戏的小型双足机器人 _ Pollen Robotics_files/screentime.webp",
+      "srcset": null,
+      "alt": "一只微型鸭子站在一台笔记本电脑屏幕前，屏幕笼罩在青色的灯光下。",
+      "raw": "<img class=\"MuiBox-root mui-qip1yh\" src=\"./Microduck——一款可以教你各种新把戏的小型双足机器人 _ Pollen Robotics_files/screentime.webp\" alt=\"一只微型鸭子站在一台笔记本电脑屏幕前，屏幕笼罩在青色的灯光下。\" loading=\"lazy\" decoding=\"async\">"
+    },
+    {
+      "src": "./Microduck——一款可以教你各种新把戏的小型双足机器人 _ Pollen Robotics_files/skate.webp",
+      "srcset": null,
+      "alt": "夕阳西下，户外的Microduck，旁边是一双滑板鞋",
+      "raw": "<img class=\"MuiBox-root mui-qip1yh\" src=\"./Microduck——一款可以教你各种新把戏的小型双足机器人 _ Pollen Robotics_files/skate.webp\" alt=\"夕阳西下，户外的Microduck，旁边是一双滑板鞋\" loading=\"lazy\" decoding=\"async\">"
+    },
+    {
+      "src": "./Microduck——一款可以教你各种新把戏的小型双足机器人 _ Pollen Robotics_files/stickers.webp",
+      "srcset": null,
+      "alt": "一只手正将嘴唇贴纸贴到微型鸭的喙上，贴纸散落在桌子上。",
+      "raw": "<img class=\"MuiBox-root mui-qip1yh\" src=\"./Microduck——一款可以教你各种新把戏的小型双足机器人 _ Pollen Robotics_files/stickers.webp\" alt=\"一只手正将嘴唇贴纸贴到微型鸭的喙上，贴纸散落在桌子上。\" loading=\"lazy\" decoding=\"async\">"
+    },
+    {
+      "src": "./Microduck——一款可以教你各种新把戏的小型双足机器人 _ Pollen Robotics_files/playroom.webp",
+      "srcset": null,
+      "alt": "一只迷你鸭子站在儿童游戏室的粉色地毯上",
+      "raw": "<img class=\"MuiBox-root mui-qip1yh\" src=\"./Microduck——一款可以教你各种新把戏的小型双足机器人 _ Pollen Robotics_files/playroom.webp\" alt=\"一只迷你鸭子站在儿童游戏室的粉色地毯上\" loading=\"lazy\" decoding=\"async\">"
+    },
+    {
+      "src": "./Microduck——一款可以教你各种新把戏的小型双足机器人 _ Pollen Robotics_files/morning.webp",
+      "srcset": null,
+      "alt": "晨光温暖，桌面上放着一台Microduck，旁边是显示器和游戏手柄。",
+      "raw": "<img class=\"MuiBox-root mui-qip1yh\" src=\"./Microduck——一款可以教你各种新把戏的小型双足机器人 _ Pollen Robotics_files/morning.webp\" alt=\"晨光温暖，桌面上放着一台Microduck，旁边是显示器和游戏手柄。\" loading=\"lazy\" decoding=\"async\">"
+    },
+    {
+      "src": "./Microduck——一款可以教你各种新把戏的小型双足机器人 _ Pollen Robotics_files/bedroom.webp",
+      "srcset": null,
+      "alt": "一只微型鸭子站在卧室地毯上，它的主人正在它身后的床上编写代码。",
+      "raw": "<img class=\"MuiBox-root mui-qip1yh\" src=\"./Microduck——一款可以教你各种新把戏的小型双足机器人 _ Pollen Robotics_files/bedroom.webp\" alt=\"一只微型鸭子站在卧室地毯上，它的主人正在它身后的床上编写代码。\" loading=\"lazy\" decoding=\"async\">"
+    },
+    {
+      "src": "./Microduck——一款可以教你各种新把戏的小型双足机器人 _ Pollen Robotics_files/walkabout.webp",
+      "srcset": null,
+      "alt": "一只微型鸭子走过一张绿色的游戏桌，周围都是人。",
+      "raw": "<img class=\"MuiBox-root mui-nhtoy0\" src=\"./Microduck——一款可以教你各种新把戏的小型双足机器人 _ Pollen Robotics_files/walkabout.webp\" alt=\"一只微型鸭子走过一张绿色的游戏桌，周围都是人。\" loading=\"lazy\" decoding=\"async\">"
+    },
+    {
+      "src": "./Microduck——一款可以教你各种新把戏的小型双足机器人 _ Pollen Robotics_files/pack-robot.webp",
+      "srcset": null,
+      "alt": "漫画中，Microduck机器人站在桌子上。",
+      "raw": "<img class=\"MuiBox-root mui-j0a8bs\" src=\"./Microduck——一款可以教你各种新把戏的小型双足机器人 _ Pollen Robotics_files/pack-robot.webp\" alt=\"漫画中，Microduck机器人站在桌子上。\" loading=\"lazy\">"
+    },
+    {
+      "src": "./Microduck——一款可以教你各种新把戏的小型双足机器人 _ Pollen Robotics_files/pack-charger.webp",
+      "srcset": null,
+      "alt": "一个双槽电池充电器、两块备用电池和一根 USB-C 数据线，以漫画形式呈现",
+      "raw": "<img class=\"MuiBox-root mui-1fpvo30\" src=\"./Microduck——一款可以教你各种新把戏的小型双足机器人 _ Pollen Robotics_files/pack-charger.webp\" alt=\"一个双槽电池充电器、两块备用电池和一根 USB-C 数据线，以漫画形式呈现\" loading=\"lazy\">"
+    },
+    {
+      "src": "./Microduck——一款可以教你各种新把戏的小型双足机器人 _ Pollen Robotics_files/pack-dev.webp",
+      "srcset": null,
+      "alt": "三个备用电机、电机线、两块电池、一个充电器、十个NFC标签、一个“拥抱脸”贴纸、一把螺丝刀和一些备用螺丝，以漫画形式绘制。",
+      "raw": "<img class=\"MuiBox-root mui-1fpvo30\" src=\"./Microduck——一款可以教你各种新把戏的小型双足机器人 _ Pollen Robotics_files/pack-dev.webp\" alt=\"三个备用电机、电机线、两块电池、一个充电器、十个NFC标签、一个“拥抱脸”贴纸、一把螺丝刀和一些备用螺丝，以漫画形式绘制。\" loading=\"lazy\">"
+    },
+    {
+      "src": "./Microduck——一款可以教你各种新把戏的小型双足机器人 _ Pollen Robotics_files/pack-accessories.webp",
+      "srcset": null,
+      "alt": "两个黄色滚轮附件、一个球、一支激光笔、一个NFC拍立得相机和十个NFC标签，以漫画形式呈现",
+      "raw": "<img class=\"MuiBox-root mui-1fpvo30\" src=\"./Microduck——一款可以教你各种新把戏的小型双足机器人 _ Pollen Robotics_files/pack-accessories.webp\" alt=\"两个黄色滚轮附件、一个球、一支激光笔、一个NFC拍立得相机和十个NFC标签，以漫画形式呈现\" loading=\"lazy\">"
+    },
+    {
+      "src": "./Microduck——一款可以教你各种新把戏的小型双足机器人 _ Pollen Robotics_files/bomb.webp",
+      "srcset": null,
+      "alt": "",
+      "raw": "<img class=\"MuiBox-root mui-1g5q1dy\" src=\"./Microduck——一款可以教你各种新把戏的小型双足机器人 _ Pollen Robotics_files/bomb.webp\" alt=\"\">"
+    },
+    {
+      "src": "./Microduck——一款可以教你各种新把戏的小型双足机器人 _ Pollen Robotics_files/sleeping-reachy.svg",
+      "srcset": null,
+      "alt": "",
+      "raw": "<img class=\"MuiBox-root mui-d17fmb\" src=\"./Microduck——一款可以教你各种新把戏的小型双足机器人 _ Pollen Robotics_files/sleeping-reachy.svg\" alt=\"\" aria-hidden=\"true\">"
+    },
+    {
+      "src": "./Microduck——一款可以教你各种新把戏的小型双足机器人 _ Pollen Robotics_files/pollen-logo-icon.svg",
+      "srcset": null,
+      "alt": "",
+      "raw": "<img class=\"MuiBox-root mui-1rhyvhl\" src=\"./Microduck——一款可以教你各种新把戏的小型双足机器人 _ Pollen Robotics_files/pollen-logo-icon.svg\" alt=\"\" aria-hidden=\"true\">"
+    },
+    {
+      "src": "./Microduck——一款可以教你各种新把戏的小型双足机器人 _ Pollen Robotics_files/hf-logo.svg",
+      "srcset": null,
+      "alt": "",
+      "raw": "<img class=\"MuiBox-root mui-hc3hxh\" src=\"./Microduck——一款可以教你各种新把戏的小型双足机器人 _ Pollen Robotics_files/hf-logo.svg\" alt=\"\" aria-hidden=\"true\">"
+    },
+    {
+      "src": "./Microduck——一款可以教你各种新把戏的小型双足机器人 _ Pollen Robotics_files/duck-head-mark.webp",
+      "srcset": null,
+      "alt": "",
+      "raw": "<img class=\"duck-closed MuiBox-root mui-i660uq\" alt=\"\" aria-hidden=\"true\" src=\"./Microduck——一款可以教你各种新把戏的小型双足机器人 _ Pollen Robotics_files/duck-head-mark.webp\">"
+    },
+    {
+      "src": "./Microduck——一款可以教你各种新把戏的小型双足机器人 _ Pollen Robotics_files/duck-head-mark-open.webp",
+      "srcset": null,
+      "alt": "",
+      "raw": "<img class=\"duck-open MuiBox-root mui-131vlt3\" alt=\"\" aria-hidden=\"true\" src=\"./Microduck——一款可以教你各种新把戏的小型双足机器人 _ Pollen Robotics_files/duck-head-mark-open.webp\">"
+    },
+    {
+      "src": "./Microduck——一款可以教你各种新把戏的小型双足机器人 _ Pollen Robotics_files/reachy-eating-a-cookie.svg",
+      "srcset": null,
+      "alt": "",
+      "raw": "<img class=\"MuiBox-root mui-1bbx8sp\" alt=\"\" src=\"./Microduck——一款可以教你各种新把戏的小型双足机器人 _ Pollen Robotics_files/reachy-eating-a-cookie.svg\">"
+    },
+    {
+      "src": "./Microduck——一款可以教你各种新把戏的小型双足机器人 _ Pollen Robotics_files/24px.svg",
+      "srcset": null,
+      "alt": "",
+      "raw": "<img src=\"./Microduck——一款可以教你各种新把戏的小型双足机器人 _ Pollen Robotics_files/24px.svg\" width=\"24\" height=\"24\" alt=\"\">"
+    },
+    {
+      "src": "chrome-extension://kobncfkmjelbefaoohoblamnbackjggk/icon/icon_32.png",
+      "srcset": null,
+      "alt": null,
+      "raw": "<img src=\"chrome-extension://kobncfkmjelbefaoohoblamnbackjggk/icon/icon_32.png\" style=\"width: 32px; height: 32px;\">"
+    }
+  ],
+  "assets": [
+    "https://pollen-robotics.com/_next/static/media/5c285b27cdda1fe8-s.p.2_mbdogr7ni8i.woff2",
+    "https://pollen-robotics.com/_next/static/media/9e9f04e3c37952ab-s.p.0pan85mumqyf3.woff2",
+    "https://pollen-robotics.com/manifest.webmanifest",
+    "https://pollen-robotics.com/assets/pollen-mark.png",
+    "https://pollen-robotics.com/apple-touch-icon.png",
+    "/assets/microduck/microduck-hero.webm",
+    "/assets/microduck/microduck-hero.mp4",
+    "/assets/microduck/launch-film-poster.jpg",
+    "/assets/microduck/launch-film.webm",
+    "/assets/microduck/launch-film.mp4",
+    "/assets/microduck/moves-portrait-alpha/posters/walk.png",
+    "/assets/microduck/moves-portrait-alpha/walk.webm",
+    "/assets/microduck/moves-portrait-alpha/posters/sitstand.png",
+    "/assets/microduck/moves-portrait-alpha/sitstand.webm",
+    "/assets/microduck/moves-portrait-alpha/posters/kickL.png",
+    "/assets/microduck/moves-portrait-alpha/kickL.webm",
+    "/assets/microduck/moves-portrait-alpha/posters/grab.png",
+    "/assets/microduck/moves-portrait-alpha/grab.webm",
+    "/assets/microduck/moves-portrait-alpha/posters/drive.png",
+    "/assets/microduck/moves-portrait-alpha/drive.webm",
+    "/assets/microduck/moves-portrait-alpha/posters/standup.png",
+    "/assets/microduck/moves-portrait-alpha/standup.webm",
+    "/assets/microduck/gallery/roller-skating-poster.jpg",
+    "/assets/microduck/gallery/roller-skating.mp4",
+    "/assets/microduck/gallery/balance-recovery-poster.jpg",
+    "/assets/microduck/gallery/balance-recovery.mp4",
+    "/assets/microduck/gallery/squad-standup-poster.jpg",
+    "/assets/microduck/gallery/squad-standup.mp4",
+    "/assets/microduck/gallery/chorale-poster.jpg",
+    "/assets/microduck/gallery/chorale.mp4",
+    "/assets/microduck/gallery/grab-and-carry-poster.jpg",
+    "/assets/microduck/gallery/grab-and-carry.mp4"
+  ]
+}

@@ -1,0 +1,11 @@
+node_modules
+dist
+.DS_Store
+*.log
+.qa
+.env
+.env.*
+Caddyfile.remote
+/*.png
+scripts/.blob-progress.json
+scripts/push-via-github-api.mjs
