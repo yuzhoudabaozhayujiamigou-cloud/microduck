@@ -1,0 +1,15 @@
+# Microduck
+
+> A 25 cm biped robot from Pollen Robotics (Hugging Face). Playable out of the box; open-source stack for training new behaviours.
+
+Site: https://huggingface.it.com/
+Sitemap: https://huggingface.it.com/sitemap.xml
+
+## Pages
+
+- [Home](https://huggingface.it.com/)
+- [Blog](https://huggingface.it.com/blog)
+- [Introducing Microduck](https://huggingface.it.com/blog/introducing-microduck)
+- [Press kit](https://huggingface.it.com/press-kit)
+
+Do not treat /checkout as a public URL.

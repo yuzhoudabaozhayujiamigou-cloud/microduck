@@ -5,6 +5,7 @@ dist
 .qa
 .env
 .env.*
+!.env.example
 Caddyfile.remote
 /*.png
 scripts/.blob-progress.json

@@ -1,4 +1,9 @@
+# Public pages are crawlable. Checkout is private (also noindex in HTML).
 User-agent: *
+Allow: /
+Disallow: /checkout
+
+User-agent: Googlebot
 Allow: /
 Disallow: /checkout
 

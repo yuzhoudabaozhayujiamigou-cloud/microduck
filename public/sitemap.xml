@@ -2,14 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://huggingface.it.com/</loc>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://huggingface.it.com/blog</loc>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://huggingface.it.com/blog/introducing-microduck</loc>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://huggingface.it.com/press-kit</loc>
+    <lastmod>2026-09-02</lastmod>
   </url>
 </urlset>

@@ -44,9 +44,30 @@ After DNS propagates (often minutes, up to 48h):
 2. Confirm `huggingface.it.com` is verified (DNS check)
 3. Enable **Enforce HTTPS**
 4. Check `/`, `/blog`, `/press-kit`, `/checkout` (SPA fallback)
+5. Only then add the site in Google Search Console (see below). Do not submit the Spaceship parking page.
+
+## Google Search indexing
+
+`robots.txt` allows `/`, `/blog`, and `/press-kit`, and disallows `/checkout` (checkout is also `noindex` in the app). `sitemap.xml` lists only those public URLs. Googlebot is not blocked.
+
+**Do not** add the domain in Search Console, ping Google, or submit the sitemap while DNS still shows the Spaceship parking page.
+
+When `https://huggingface.it.com` serves this Microduck site (not parking):
+
+1. Open [Google Search Console](https://search.google.com/search-console)
+2. Add URL-prefix property `https://huggingface.it.com`
+3. Verify ownership:
+   - **HTML tag:** copy the `content=` token from Search Console, set GitHub Actions secret `VITE_GOOGLE_SITE_VERIFICATION` (no fake token), rebuild Pages. The build injects `<meta name="google-site-verification">` only when that env is set.
+   - Or use a DNS TXT record on the domain.
+4. Sitemaps → Add new sitemap → `https://huggingface.it.com/sitemap.xml`
+
+Optional ping (deprecated, harmless once the real site is live):
+
+`https://www.google.com/ping?sitemap=https://huggingface.it.com/sitemap.xml`
 
 ## What was already done
 
 - `npm run build` succeeded (`tsc -b` + Vite + `scripts/spa-fallback.mjs`)
 - GitHub repo created; site tree published; Pages workflow **success** (run `33541824035`)
 - Pre-order goes to `/checkout` only in this tree
+- Indexing files prepared (`public/robots.txt`, `public/sitemap.xml`); Google was **not** pinged while the apex still parks
