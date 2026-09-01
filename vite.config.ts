@@ -1,11 +1,15 @@
-import { defineConfig, loadEnv, type Plugin } from "vite";
+import { defineConfig, type Plugin } from "vite";
 import react from "@vitejs/plugin-react";
 
 const siteHost = "huggingface.it.com";
 
-function googleSiteVerification(token: string): Plugin {
+function googleSiteVerification(): Plugin {
+  let token = "";
   return {
     name: "google-site-verification",
+    configResolved(config) {
+      token = String(config.env.VITE_GOOGLE_SITE_VERIFICATION ?? "").trim();
+    },
     transformIndexHtml(html) {
       if (!token || !/^[A-Za-z0-9_=-]+$/.test(token)) return html;
       return html.replace(
@@ -16,17 +20,12 @@ function googleSiteVerification(token: string): Plugin {
   };
 }
 
-export default defineConfig(({ mode }) => {
-  const env = loadEnv(mode, process.cwd(), "VITE_");
-  const verification = (env.VITE_GOOGLE_SITE_VERIFICATION ?? "").trim();
-
-  return {
-    plugins: [react(), googleSiteVerification(verification)],
-    base: "/",
-    server: { port: 5173, host: true },
-    preview: {
-      host: true,
-      allowedHosts: [siteHost],
-    },
-  };
+export default defineConfig({
+  plugins: [react(), googleSiteVerification()],
+  base: "/",
+  server: { port: 5173, host: true },
+  preview: {
+    host: true,
+    allowedHosts: [siteHost],
+  },
 });
