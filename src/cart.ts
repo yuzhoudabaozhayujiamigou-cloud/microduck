@@ -21,7 +21,7 @@ export type PlacedOrder = {
   colour: ColourId;
   lines: Array<{ id: PackId; name: string; qty: number; cents: number }>;
   subtotalCents: number;
-  cardLast4: string;
+  cardLast4?: string;
   cardBrand?: string;
 };
 
@@ -32,7 +32,7 @@ export function emptyQty(): QtyMap {
 }
 
 export function defaultCart(): Cart {
-  return { colour: "classic", qty: { ...emptyQty(), robot: 1 } };
+  return { colour: "charcoal", qty: { ...emptyQty(), robot: 1 } };
 }
 
 function clampQty(n: number, max = 20) {
@@ -61,7 +61,23 @@ export function cartFromSearch(search: string): Cart {
   } else {
     cart.qty.robot = robotQty;
   }
+  for (const id of ["charger", "dev", "accessory"] as const) {
+    const n = Number(params.get(id));
+    if (Number.isFinite(n) && n > 0) cart.qty[id] = clampQty(n);
+  }
   return cart;
+}
+
+export function cartToSearch(cart: Cart) {
+  const params = new URLSearchParams();
+  params.set("colour", cart.colour);
+  if (cart.qty.robot > 0) params.set("qty", String(cart.qty.robot));
+  const added = PACKS.filter((pack) => cart.qty[pack.id] > 0).map((pack) => pack.id);
+  if (added.length) params.set("add", added.join(","));
+  for (const id of ["charger", "dev", "accessory"] as const) {
+    if (cart.qty[id] > 1) params.set(id, String(cart.qty[id]));
+  }
+  return params.toString();
 }
 
 export function cartLines(cart: Cart) {

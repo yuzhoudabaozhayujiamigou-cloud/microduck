@@ -118,7 +118,7 @@ export const PACKS = [
   },
   {
     id: "charger",
-    name: "Charger pack",
+    name: "Charger Pack",
     price: "$39",
     priceCents: 3900,
     detail: "Dual charger, 2x batteries.",
@@ -128,7 +128,7 @@ export const PACKS = [
   },
   {
     id: "dev",
-    name: "Dev pack",
+    name: "Dev Pack",
     price: "$119",
     priceCents: 11900,
     detail: "3x spare motors, 5x motor cables, 2x batteries, dual charger, 10x NFC tags, Hugging Face credit, screwdriver, screw pack.",
@@ -138,7 +138,7 @@ export const PACKS = [
   },
   {
     id: "accessory",
-    name: "Accessory pack",
+    name: "Accessory Pack",
     price: "$39",
     priceCents: 3900,
     detail: "Laser pointer, NFC polaroid, 2x rollers, ball, 10x NFC tags.",
@@ -151,6 +151,53 @@ export const PACKS = [
 export type PackId = (typeof PACKS)[number]["id"];
 
 export const PACK_BY_ID = Object.fromEntries(PACKS.map((pack) => [pack.id, pack])) as Record<PackId, (typeof PACKS)[number]>;
+
+/** Official store product shots used on /checkout (saved Shopify page + CDN-sized copies). */
+export const COLOUR_IMAGES: Record<ColourId, string> = {
+  classic: "/store/cream-sit.webp",
+  charcoal: "/store/graphite.webp",
+  lavender: "/store/lavender-sit.webp",
+  sky: "/store/sky-three.webp",
+};
+
+export const STORE_PACK_IMAGE: Record<PackId, string> = {
+  robot: "/store/graphite.webp",
+  charger: "/store/pack-charger.webp",
+  dev: "/store/pack-dev.webp",
+  accessory: "/store/pack-accessory.webp",
+};
+
+export type StoreShot = {
+  id: string;
+  src: string;
+  alt: string;
+  video?: string;
+};
+
+export const STORE_GALLERY: StoreShot[] = [
+  {
+    id: "film",
+    src: "/store/video-a.webp",
+    alt: "Microduck walking and playing",
+    video: "/assets/microduck/gallery/squad-standup.mp4",
+  },
+  { id: "four", src: "/store/four-colors.webp", alt: "Four Microduck colourways standing together" },
+  { id: "room", src: "/store/cream-room.webp", alt: "Cream Microduck standing in a bedroom" },
+  { id: "office", src: "/store/cream-office.webp", alt: "Cream Microduck standing in an office" },
+  { id: "sit", src: "/store/cream-sit.webp", alt: "Cream Microduck sitting, three-quarter view" },
+  { id: "sky", src: "/store/sky-three.webp", alt: "Sky Microduck standing, three-quarter view" },
+  { id: "back", src: "/store/graphite-back.webp", alt: "Graphite Microduck from the back" },
+  { id: "lavender", src: "/store/lavender-sit.webp", alt: "Lavender Microduck sitting" },
+  { id: "sim", src: "/store/sim-office.webp", alt: "Microduck in a MuJoCo simulation of an office" },
+  { id: "play", src: "/store/cream-controller.webp", alt: "Cream Microduck with a game controller" },
+  { id: "box", src: "/store/inbox.webp", alt: "Microduck packed in its box" },
+  {
+    id: "film2",
+    src: "/store/video-b.webp",
+    alt: "Microduck in motion",
+    video: "/assets/microduck/gallery/chorale.mp4",
+  },
+];
 
 export const SHIP_COUNTRIES = [
   { code: "US", label: "United States" },

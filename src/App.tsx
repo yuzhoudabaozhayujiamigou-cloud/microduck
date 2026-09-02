@@ -32,6 +32,16 @@ function setMeta(attr: "name" | "property", key: string, value: string) {
   el.setAttribute("content", value);
 }
 
+function CheckoutChrome() {
+  const { pathname } = useLocation();
+  useEffect(() => {
+    const on = pathname.startsWith("/checkout");
+    document.body.classList.toggle("is-checkout", on);
+    return () => document.body.classList.remove("is-checkout");
+  }, [pathname]);
+  return null;
+}
+
 function SeoHead() {
   const { pathname } = useLocation();
   useEffect(() => {
@@ -73,6 +83,7 @@ export function App() {
   return (
     <BrowserRouter>
       <HashScroll />
+      <CheckoutChrome />
       <SeoHead />
       <AnalyticsGate />
       <Header />
